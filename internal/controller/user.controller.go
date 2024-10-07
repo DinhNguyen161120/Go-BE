@@ -1,9 +1,8 @@
 package controller
 
 import (
-	"net/http"
-
 	"example.com/m/internal/service"
+	"example.com/m/pkg/response"
 	"github.com/gin-gonic/gin"
 )
 
@@ -19,9 +18,8 @@ func NewUserController() *UserController {
 
 // controller -> servcie -> repo -> models -> dbs
 func (uc *UserController) GetUserById(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{
-		"message": uc.userService.GetInfoUserService(),
-		"users":   []string{"str1", "str2"},
-		"userId":  "2asgqyueq6eq8q8qweyu",
-	})
+	if false {
+		response.ErrorResponse(c, 20003, "No need")
+	}
+	response.SuccessResponse(c, 20001, []string{"data1", "data2", "data3"})
 }
