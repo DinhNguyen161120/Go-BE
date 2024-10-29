@@ -1,6 +1,8 @@
 package controller
 
 import (
+	"fmt"
+
 	"example.com/m/internal/service"
 	"example.com/m/pkg/response"
 	"github.com/gin-gonic/gin"
@@ -18,6 +20,7 @@ func NewUserController() *UserController {
 
 // controller -> servcie -> repo -> models -> dbs
 func (uc *UserController) GetUserById(c *gin.Context) {
+	fmt.Println("----> My handler")
 	if false {
 		response.ErrorResponse(c, 20003, "No need")
 	}
