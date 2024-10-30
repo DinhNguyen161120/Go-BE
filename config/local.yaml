@@ -1,14 +1,11 @@
 server:
   port: 8002
-databases:
-  - user: admin
-    password: admin
-    host: localhost
-    dbName: shopDev
-  - user: role
-    password: role
-    host: localhost
-    dbName: role
-security:
-  jwt:
-    key: abc123
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: 123456
+  dbname: Main
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifeTime: 3600
