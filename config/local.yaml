@@ -5,7 +5,7 @@ mysql:
   port: 3306
   username: root
   password: 123456
-  dbname: Main
+  dbname: go_be
   maxIdleConns: 10
   maxOpenConns: 100
   connMaxLifeTime: 3600

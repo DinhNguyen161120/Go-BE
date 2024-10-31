@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "Dbname",
-        "mapstructure"
+        "gorm",
+        "mapstructure",
+        "varchar"
     ]
 }
