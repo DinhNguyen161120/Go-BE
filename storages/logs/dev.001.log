@@ -4,3 +4,11 @@
 {"level":"INFO","time":"2024-10-31T10:13:37.080+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
 {"level":"ERROR","time":"2024-10-31T10:13:37.081+0700","caller":"initialize/mysql.go:16","msg":"Mysql init Error","error":"unknown time zone Localroot123456127.0.0.13306go_be","stacktrace":"example.com/m/internal/initialize.checkErrorPanic\n\tD:/APP/NDD/Go-BE/internal/initialize/mysql.go:16\nexample.com/m/internal/initialize.InitMysql\n\tD:/APP/NDD/Go-BE/internal/initialize/mysql.go:29\nexample.com/m/internal/initialize.Run\n\tD:/APP/NDD/Go-BE/internal/initialize/run.go:16\nmain.main\n\tD:/APP/NDD/Go-BE/cmd/server/main.go:10\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
 {"level":"INFO","time":"2024-10-31T10:14:21.481+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:33:44.868+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"ERROR","time":"2024-11-01T13:33:44.889+0700","caller":"initialize/mysql.go:16","msg":"Mysql init Error","error":"Error 1049 (42000): Unknown database 'go_be'","stacktrace":"example.com/m/internal/initialize.checkErrorPanic\n\tD:/APP/NDD/Go-BE/internal/initialize/mysql.go:16\nexample.com/m/internal/initialize.InitMysql\n\tD:/APP/NDD/Go-BE/internal/initialize/mysql.go:28\nexample.com/m/internal/initialize.Run\n\tD:/APP/NDD/Go-BE/internal/initialize/run.go:16\nmain.main\n\tD:/APP/NDD/Go-BE/cmd/server/main.go:10\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:272"}
+{"level":"INFO","time":"2024-11-01T13:35:49.895+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:41:16.214+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:41:36.801+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:49:00.737+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:56:51.604+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
+{"level":"INFO","time":"2024-11-01T13:57:17.173+0700","caller":"initialize/run.go:15","msg":"Config Log ok!!","ok":"success"}
